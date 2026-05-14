@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pkl
+venv/
+.venv/
+*.png
+charts/
+ragas_results.json
+cache_*.pkl
+.DS_Store
