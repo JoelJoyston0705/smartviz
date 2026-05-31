@@ -7,7 +7,7 @@ sensor data from a smart building.
 **Industry Partner:** SmartViz Ltd, London  
 **Academic Supervisor:** Prof. Paul Ledger  
 **Industry Supervisor:** Vishal Sharma  
-**IEEE DTPI 2026** — Paper #1571276780  
+
 
 ---
 
