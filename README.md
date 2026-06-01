@@ -115,7 +115,7 @@ streamlit run app_router.py
 
 ## Project Structure
 
-smartviz/
+ssmartviz/
 ├── agents/
 │ ├── agent1_planner.py # Query Planner (GPT-4)
 │ ├── agent2_rag.py # RAG Retrieval (pgvector)
@@ -123,7 +123,10 @@ smartviz/
 │ ├── agent4_validator.py # Execution Validator
 │ ├── agent5_graph.py # Graph Builder (matplotlib)
 │ └── agent_function_router.py # Deterministic metric routing
+├── results/ # Evaluation CSVs (E1–E6)
+├── tests/ # Development test scripts
 ├── setup_embeddings.py # pgvector schema embedding setup
+├── evaluate.py # Evaluation harness (90 queries)
 ├── ragas_eval.py # RAGAS supplementary evaluation
 ├── app_router.py # Streamlit multi-page controller
 ├── landing.py # Landing page
