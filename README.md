@@ -22,8 +22,6 @@ Resolved by a deterministic function routing layer.
 
 ## System Architecture
 
-![SmartViz Architecture](assets/architecture.svg)
-
 
 User Question (Streamlit)
 ↓
