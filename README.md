@@ -115,27 +115,28 @@ streamlit run app_router.py
 
 ## Project Structure
 
-ssmartviz/
+```
+smartViz/
 ├── agents/
-│ ├── agent1_planner.py # Query Planner (GPT-4)
-│ ├── agent2_rag.py # RAG Retrieval (pgvector)
-│ ├── agent3_sql.py # SQL Generator (multi-model)
-│ ├── agent4_validator.py # Execution Validator
-│ ├── agent5_graph.py # Graph Builder (matplotlib)
-│ └── agent_function_router.py # Deterministic metric routing
-├── results/ # Evaluation CSVs (E1–E6)
-├── tests/ # Development test scripts
-├── setup_embeddings.py # pgvector schema embedding setup
-├── evaluate.py # Evaluation harness (90 queries)
-├── ragas_eval.py # RAGAS supplementary evaluation
-├── app_router.py # Streamlit multi-page controller
-├── landing.py # Landing page
-├── login.py # Login page
-├── signup.py # Signup page
-└── main_app.py # Main chat interface
+│   ├── agent1_planner.py
+│   ├── agent2_rag.py
+│   ├── agent3_sql.py
+│   ├── agent4_validator.py
+│   ├── agent5_graph.py
+│   └── agent_function_router.py
+├── results/
+├── tests/
+├── setup_embeddings.py
+├── evaluate.py
+├── ragas_eval.py
+├── app_router.py
+├── landing.py
+├── login.py
+├── signup.py
+└── main_app.py
+```
 
 ---
-
 ## Author
 
 **Joel Joyston Cecil Kumar**  
