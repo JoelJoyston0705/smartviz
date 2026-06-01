@@ -22,6 +22,9 @@ Resolved by a deterministic function routing layer.
 
 ## System Architecture
 
+![SmartViz Architecture](assets/Five-Agent LLM Pipeline Architecture.svg)
+
+
 User Question (Streamlit)
 ↓
 Agent 1 — Query Planner (GPT-4)
